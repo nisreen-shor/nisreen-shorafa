@@ -1,55 +1,60 @@
 
+/* Start main Rules */
 
-*{
-box-sizing: border-box;
-padding: 0;
-margin: 0;
-
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
 }
 
-
-
- .website{
-    background-image:url("images/background.jpg");
+ 
+      /* Start WebPage */
+      /* This for the background image for the Website */
+.website {
+    background-image:url("background.jpg");
     background-size: cover;
-    height: 600px;   
+    height: 600px   
+}
+
+
+/* Start the box */
+
+ .box {
+    border-radius: 20%;
+    position:absolute;
+    z-index:999;
+    top: 0;
+    left: 400px;
+    right: 0;
+    border: 0 !important;
+    text-align: center;
+    padding-top: 20px;
+    width: 600px;
+    height: 450px;
+    background-color: rgba(60,40,20,0.3);
+    margin: 50px auto;
+    color: #FFF  
+    }
+
+
+
+
+/* ************* The Profile image inside the box **************/
+
+ .box .profile_img img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:-30px;
+    left: 205px
 }
 
 
 
+/* ********** Profile Name ******** */
 
-.box {
-border-radius: 20%;
-position:absolute;
-z-index:999;
-top: 0;
-left: 400px;
-right: 0;
-border: 0 !important;
-text-align: center;
-padding-top: 20px;
-width: 600px;
-height: 450px;
-background-color: rgba(60,40,20,0.3);
-margin: 50px auto;
-color: #FFF;
-    
-
-    
-}
-
-.box .profile_img img{
-border-radius: 50%;
-width: 200px;
-height: 200px;
-position: absolute;
-top:-30px;
-left: 205px;
-}
-
-
-
-.box .info h2{
+ .box .info h2{
  margin: 0 auto;
     font-size: 30px;
     width: 600px;
@@ -59,57 +64,58 @@ left: 205px;
     font-family: Trebuchet MS;
     align-content: center;
     font-weight: bold;
-    color: #E6E60E;
-
-    
-    
+    color: #E6E60E; 
 }
 
-.box .info h3{
- margin: 0 auto;
+
+/* *****   Profile Skills   *****/
+
+ .box .info h3 {
+    margin: 0 auto;
     font-size: 25px;
     width: 600px;
     padding: 1px 0;
     padding-top: 10px;
     color: #E2F0D9;
     font-size: 20;
-     font-family: comic sans ms;
+    font-family: comic sans ms;
 }
 
 
-    
-    
-.box .icon {
+/* ******** Links to My Accounts on gethub, codewars & FreeCodeCamp *****/
+
+ .box .icon {
     padding: 5px;
     width: 350px;
     text-align: center;
 }
 
-.box .icon ul {
+
+
+ .box .icon ul {
     list-style: none;
     
     padding: 20px 0;
     text-align: center;
-    
-    
-    
-
 }
 
-.box .icon ul li {
+
+
+ .box .icon ul li {
     float:right;
     margin: 0;
     display: inline-block; 
     width: 40px;
     height: 50px;
-    padding: 10px;
-   
+    padding: 10px;  
 }
 
-.box .icon ul li .active a,
-.box .icon ul li a:hover {
+
+
+
+ .box .icon ul li .active a,
+ .box .icon ul li a:hover {
     
-  
 }
 
 
